@@ -1,0 +1,69 @@
+配置下我们的身份
+git config --global user.name "Android-Learning"
+git config --global user.email "2226486090@qq.com"
+
+初始化
+git init
+$ ls -al
+	total 12
+	drwxr-xr-x 1 haifeng16.wang 1049089 0 Jul 27 14:32 ./
+	drwxr-xr-x 1 haifeng16.wang 1049089 0 Jul 27 14:31 ../
+	drwxr-xr-x 1 haifeng16.wang 1049089 0 Jul 27 14:32 .git/  //仓库创建成功
+
+提交本地代码
+ git add readme.txt
+ git commit -m "Wrote a readme file"  //commit才是真的去执行提交操作
+
+
+查看修改内容
+git status  //查看 修改的部分
+git diff   //具体更改了什么
+
+查看提交记录
+git log
+
+撤销未提交的修改
+git checkout readme.txt
+
+如果已经add了的话，checkout是没任何作用的，先取消添加才可以撤回提交
+
+git reset HEAD readme.txt    //取消添加
+git checkout readme.txt      //撤回提交
+
+
+版本回退(已提交)
+git reset --hard HEAD   //当前版本
+git reset --hard HEAD^  //上一版本
+git reset --hard ad2080c  //退回到确定版本
+
+
+恢复回退(回退过了)
+git reflog
+git reset --hard 8f53de2
+
+Clone代码库到本地
+git clone https://github.com/WHF0258/AndroidLearning.git
+
+分支管理
+	创建分支(后者创建同时会切换分支):
+	git branch v1.0.3 或 git checkout -b v1.0.4
+
+	查看版本库中所有分支：
+	git branch -a
+
+	切换到某一分支：
+	git checkout v1.0.3
+
+	删除某一分支：
+	git branch -D v1.0.4
+
+	合并分支
+	git merge v1.0.3
+
+本地仓库与远程仓库同步问题
+
+	本地准备
+	git add和git commit
+
+	提交本地的内容
+	git push origin master 或者直接 git push
