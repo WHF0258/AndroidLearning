@@ -46,6 +46,14 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
         Msg msg = msgList.get(position);
         if (msg.getType() == Msg.TYPE_RECEIVED){
             //搜到信息 显示左边的消息布局  隐藏右边的消息布局
+            holder.leftLayout.setVisibility(View.VISIBLE);
+            holder.rightLayout.setVisibility(View.GONE);
+            holder.left_msg.setText(msg.getContent());
+        }else if (msg.getType() == Msg.TYPE_SEND){
+            //搜到信息 显示左边的消息布局  隐藏右边的消息布局
+            holder.leftLayout.setVisibility(View.GONE);
+            holder.rightLayout.setVisibility(View.VISIBLE);
+            holder.left_msg.setText(msg.getContent());
         }
     }
 
@@ -53,7 +61,7 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return msgList.size();
     }
 
 
