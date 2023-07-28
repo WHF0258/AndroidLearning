@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
-    private List<Msg> msgList; //数据源
+    private List<Msg> mSgList; //数据源
     //ViewHolder内部类
     public class ViewHolder extends RecyclerView.ViewHolder {
         LinearLayout leftLayout;
@@ -29,7 +29,7 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
     }
     //构造方法  传入数据源
     public MsgAdapter(List<Msg> msgList){
-        this.msgList = msgList;
+        mSgList = msgList;
     }
 
     //创建ViewHolder实例
@@ -43,7 +43,7 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
     //绑定数据源
     @Override
     public void onBindViewHolder(@NonNull MsgAdapter.ViewHolder holder, int position) {
-        Msg msg = msgList.get(position);
+        Msg msg = mSgList.get(position);
         if (msg.getType() == Msg.TYPE_RECEIVED){
             //搜到信息 显示左边的消息布局  隐藏右边的消息布局
             holder.leftLayout.setVisibility(View.VISIBLE);
@@ -53,7 +53,7 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
             //搜到信息 显示左边的消息布局  隐藏右边的消息布局
             holder.leftLayout.setVisibility(View.GONE);
             holder.rightLayout.setVisibility(View.VISIBLE);
-            holder.left_msg.setText(msg.getContent());
+            holder.right_msg.setText(msg.getContent());
         }
     }
 
@@ -61,7 +61,7 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return msgList.size();
+        return mSgList.size();
     }
 
 
