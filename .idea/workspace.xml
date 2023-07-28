@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e98286b-45af-4b91-9077-5c035a919bc3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ActivityTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActivityTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActivityTest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActivityTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActivityTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/androidTest/java/com/example/uibestpractice/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/java/com/example/uibestpractice/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/app/src/test/java/com/example/uibestpractice/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIBestPractice/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/androidTest/java/com/example/activitydemo/Doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/androidTest/java/com/example/activitydemo/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/java/com/example/activitydemo/ActivityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/java/com/example/activitydemo/BaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/java/com/example/activitydemo/Doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/java/com/example/activitydemo/FirstActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/java/com/example/activitydemo/SecondActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/java/com/example/activitydemo/ThirdActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/layout/first_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/layout/second_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/layout/third_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/menu/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/app/src/test/java/com/example/activitydemo/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivityDemo/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2T9NvMWFj9vCxxPqazppdudw5Fh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e98286b-45af-4b91-9077-5c035a919bc3" name="Changes" comment="" />
+      <created>1690451568487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690451568487</updated>
+    </task>
+    <servers />
+  </component>
+</project>
