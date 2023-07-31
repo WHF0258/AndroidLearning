@@ -1,0 +1,44 @@
+Android的动画分为了三种， 分别是 帧动画、View动画、属性动画。补间动画只是改变了View的显示效果而已，并不会真正的改变View的属性。而属性动画可以改变View的显示效果和属性。
+	帧动画就是顺序播放一组预先定义好的图片，就类似于我们观看视频，就是一张一张的图片连续播放。
+	重要属性：
+	android:oneshot=“false”： 表示是否重复播放动画，还是只播放一次；
+	duration=500表示这张图播放的时间；
+
+	补间动画是Android一开始就提供的比较原始的动画，主要支持四种效果：平移、缩放、旋转、透明度变化（渐变） 四种基本效果，我们可以再这四种基础效果的基础上，选择其中的几种进行组合。常见的4种View动画：
+		AlphaAnimation(改变透明度):
+			属性解释：
+			fromAlpha :起始透明度
+			toAlpha:结束透明度
+			透明度的范围为：0-1，完全透明-完全不透明;
+		ScaleAnimation（放缩View）:
+			fromXScale/fromYScale：沿着X轴/Y轴缩放的起始比例
+			toXScale/toYScale：沿着X轴/Y轴缩放的结束比例
+			pivotX/pivotY：缩放的中轴点X/Y坐标，即距离自身左边缘的位置，比如50%就是以图像的 中心为中轴点
+		TranslateAnimation(移动view):
+			fromXDelta/fromYDelta：动画起始位置的X/Y坐标
+			toXDelta/toYDelta：动画结束位置的X/Y坐标
+		RotateAnimation（旋转view）:
+			fromDegrees/toDegrees：旋转的起始/结束角度
+			repeatCount：旋转的次数，默认值为0，代表一次，假如是其他值，比如3，则旋转4次 另外，值为-1或者infinite时，表示动画永不停止
+			repeatMode：设置重复模式，默认restart，但只有当repeatCount大于0或者infinite或-1时 才有效。还可以设置成reverse，表示偶数次显示动画时会做方向相反的运动。
+补间动画还有一个缺陷，就是它只能够实现移动、缩放、旋转和淡入淡出这四种动画操作，补间动画机制就是使用硬编码的方式来完成的，功能限定死就是这些，基本上没有任何扩展性可言。并且它只是改变了View的显示效果而已，而不会真正去改变View的属性。
+AnimationUtils.loadAnimation来加载动画。
+
+	属性动画：
+		ValueAnimator(值):ValueAnimator是整个属性动画机制当中最核心的一个类，属性动画的运行机制是通过不断地对值进行操作来实现的，而初始值和结束值之间的动画过渡就是由ValueAnimator这个类来负责计算的。	
+		ObjectAnimator:调用了ofFloat()方法来去创建一个ObjectAnimator的实例，只不过ofFloat()方法当中接收的参数有点变化了。
+		AnimatorSet，将多个动画组合到一起播放：
+			after(Animator anim)   将现有动画插入到传入的动画之后执行；
+			after(long delay)   将现有动画延迟指定毫秒后执行；
+			before(Animator anim)   将现有动画插入到传入的动画之前执行；
+			with(Animator anim)   将现有动画和传入的动画同时执行。
+		eg:animSet.play(rotate).with(fadeInOut).after(moveIn);	
+AnimatorInflater.loadAnimator来加载动画。
+
+
+tips:
+	asset 文件
+	anim direction
+
+
+
