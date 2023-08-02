@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/start_doload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Download"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/pause_doload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause Download"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/cancle_doload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Download"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
